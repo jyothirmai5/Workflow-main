@@ -6,8 +6,10 @@
 }
 
 .container {
+    /* New change: Changed few stylings for the layout */
     width: 100%;
     position: relative;
+    /* New change: Changed background */
     background: url(../assets/portfolio.avif);
     background-size: cover;
     background-position: center;
