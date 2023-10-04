@@ -10,7 +10,8 @@
     width: 100%;
     position: relative;
     /* New change: Changed background */
-    background: url(../assets/portfolio.avif);
+    /* New Chenge: background color blue to pink  */
+    background: url(../assets/portfolio-g.png);
     background-size: cover;
     background-position: center;
     display: flex;
