@@ -1,3 +1,4 @@
+/* New change: theme color to pink  */
 /* New font added */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@200;300;400;500&family=Roboto:wght@300;500;700&display=swap');
 
@@ -56,7 +57,7 @@
 }
 
 .container .logo::first-letter {
-    color: #6f34fe;
+    color: #ff5af7;
     font-size: 35px;
 }
 
@@ -74,7 +75,7 @@
 }
 
 .container nav ul li a:hover {
-    color: #6f34fe;
+    color: #ff5af7;
 
 }
 
@@ -117,7 +118,7 @@
 
 .content .section-1 h3 {
     font-size: 24px;
-    color: #6f34fe;
+    color: #ff6dc7;
     margin-bottom: 10px;
 }
 
@@ -130,8 +131,8 @@
 .content .btn {
     padding: 15px 20px;
     border-radius: 5px;
-    background-color: #6f34fe;
-    border: 3px solid #6f34fe;
+    background-color: #ff6dc7;
+    border: 3px solid #ff6dc7;
     font-weight: 500;
     text-decoration: none;
     transition: 0.3s;
@@ -140,7 +141,7 @@
 
 .content .btn:hover {
     background-color: #fff;
-    color: #6f34fe;
+    color: #ff6dc7;
 
 }
 
@@ -151,13 +152,14 @@ table {
 
 th,
 td {
-    border: 1px solid #ccc;
+    border: 1px solid #ffb3fb;
     padding: 10px;
     text-align: left;
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #ff6dc7;
+    color: #fff
 }
 
 .content .project-list {
