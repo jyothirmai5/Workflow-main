@@ -34,6 +34,7 @@
     border: 2px solid rgba(255, 255, 255, 0.7);
     border-radius: 20px;
     display: flex;
+    justify-content: center;
     backdrop-filter: blur(10px);
     box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
 }
@@ -93,6 +94,7 @@
 .content .profile-section {
     display: flex;
     justify-content: space-between;
+    width:75%;
 }
 
 .content .section-1 {
@@ -171,4 +173,17 @@ th {
 
 iframe {
     width: 100%;
+}
+
+/* added footer */
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    font-size: small;
 }
