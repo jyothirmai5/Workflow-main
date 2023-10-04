@@ -28,7 +28,7 @@
 .container .box {
     width: 75%;
     padding: 40px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 178, 251, 0.115);
     z-index: 10;
     border: 2px solid rgba(255, 255, 255, 0.7);
     border-radius: 20px;
@@ -37,15 +37,14 @@
     box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
 }
 
+
 .container nav {
     height: 7%;
     width: 90%;
     position: absolute;
     display: flex;
-    align-items: center;
+    /* New change: nav position */
     justify-content: space-between;
-    margin: 15px auto;
-    padding: 20px;
 }
 
 .container logo {
