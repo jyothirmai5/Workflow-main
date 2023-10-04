@@ -22,7 +22,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 35px;
+    /* changed ppadding to make the box center */
+    padding: 35px 0;
 }
 
 .container .box {
